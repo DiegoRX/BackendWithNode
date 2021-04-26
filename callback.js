@@ -8,7 +8,7 @@ const asyncCallback = function(cb) {
     }, 2000)
 }
 
-syncCallback((err, msg)=> {
+asyncCallback((err, msg)=> {
     if(err) {
         console.log('error', err)
     } else {
