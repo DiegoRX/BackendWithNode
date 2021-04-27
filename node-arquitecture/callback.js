@@ -6,6 +6,7 @@ const asyncCallback = function(cb) {
             cb(new Error('hello error'))
         }
     }, 2000)
+    console.log('hola')
 }
 
 asyncCallback((err, msg)=> {
